@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.menuBar {
+    position: fixed;
+    background-color: white;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5% 7%;
+
+
+}
+
+
+.logo a {
+    color: tomato;
+    text-decoration: none;
+}
+
+
+.logo span {
+    color: black;
+}
+
+
+.menuBar ul li a {
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-size: 13px;
+    transition: all 0.3s;
+    padding: 30px;
+}
+
+.menuBar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.menuBar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menuBar ul li {
+    padding: 5px 15px;
+    position: relative;
+}
+
+.homeMenu {
+    display: none;
+
+}
+
+
+.menuBar ul li:hover .homeMenu {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 90%;
+    background-color: white;
+
+
+}
+
+.homeMenu ul {
+    display: block;
+    margin: 10px;
+
+}
+
+.homeMenu ul li {
+    width: 200%;
+    height: 70px;
+    padding-right: 20px;
+    right: 50px;
+    font-size: 30px;
+
+}
+
+.homeMenu ul li a {
+
+    font-size: 20px;
+
+}
+
+
+
+
+.shopmenus {
+    display: inline-block;
+
+}
+
+.shopmenu {
+    display: flex;
+
+}
+
+
+
+.shops {
+    flex-direction: column;
+}
+
+
+
+
+.search {
+    padding: 5px;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+
+
+.count {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: red;
+    color: rgb(15, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.flowers-box {
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-image: url(../img/header1500x600_1400x.webp)
+    
+    
+}
+
+.flowers-box {
+    justify-content: end;
+    display: flex;
+    padding: 10px;
+}
+
+.icon {
+    padding: 400px 0px;
+    position: fixed;
+    cursor: pointer;
+
+}
+
+.icon1 {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(151, 9, 68);
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+}
+
+
+.flowers-box .icon .icon1 i {
+    padding: 10px;
+
+
+}
+
+
+.flowers-box .icon .icon2 i {
+    padding: 10px;
+    color: red;
+
+}
+
+.icon2 {
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    font-size: 12px;
+    background-color: white;
+    margin: 8px 0px;
+}
+
+
+.menu {
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+
+.navmenu1 {
+    width: 100%;
+    height: 90px;
+    line-height: 55px;
+    padding: 50px 150px;
+}
+
+
+.navmenu1 li {
+    display: inline-block;
+
+}
+
+
+.navmenu1 li a {
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+    color: black;
+}
+
+.navmenu1 li :hover {
+    color: red;
+}
+
+
+
+
+
+.galery {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+}
+
+.foto {
+    position: relative;
+    height: 240px;
+    
+
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.foto h6 {
+    align-items: center;
+    text-align: center;
+    color: rgb(67, 69, 70);
+}
+
+
+
+.text {
+    text-align: center;
+    padding: 100px;
+
+
+}
+
+
+.album {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+
+}
+
+.foto1 h5 {
+    text-align: center;
+
+}
+
+
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+form {
+    background: white;
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+
+form input{
+flex: 2;
+}
+
+
+form button{
+    background: tomato;
+padding: 10px 50px;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+
+.footer{
+background-color: rgb(237, 238, 240);
+
+
+}
+
+
+.conteiner1{
+
+width: 100%;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center
+
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+
+.box{
+display: flex;
+flex-wrap: wrap;
+
+
+}
+
+
+.box1{
+
+    width: 25%;
+    padding: 0 15px; 
+}
+
+.box1 h4{
+    font-size: 18px;
+    color: rgb(7, 7, 7);
+    margin-bottom: 30px;
+    
+}
+
+.box1 a{
+    text-decoration: none;
+    color: rgb(88, 85, 85);
+}
+
+
+
